@@ -1,0 +1,39 @@
+body
+{
+    background-color: gray;
+    color: black;
+}
+
+main, header, footer
+{
+    text-align: center;
+}
+nav a
+{
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 2.0em;
+    color: purple;
+}
+footer
+{
+    text-align: center;
+}
+#IntroText
+{
+    text-align: left;
+}
+.hobby
+{
+    color: yellow;
+}
+td
+{
+    background-color: white;
+    padding-right: 20px;
+    font-size: 2.5em;
+}
+p
+{
+    font-size:1.6em;
+}
