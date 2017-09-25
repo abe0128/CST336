@@ -34,14 +34,17 @@ body
     {
         text-align: left;
     }
-    table {
+    table 
+    {
         margin: 0px auto;
     }
-    td {
+    td 
+    {
         padding-right: 10px;
         font-size: 1.3em;
     }
-    td strong {
+    td strong 
+    {
         color: orange;
     }
     #table-header {
