@@ -1,0 +1,8 @@
+[03-Oct-2017 00:16:32 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336-github/Lab4/Slider/index.php on line 19
+[03-Oct-2017 00:16:32 UTC] PHP Stack trace:
+[03-Oct-2017 00:16:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab4/Slider/index.php:0
+[03-Oct-2017 00:16:32 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336-github/Lab4/Slider/index.php:19
+[03-Oct-2017 00:16:33 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336-github/Lab4/Slider/index.php on line 19
+[03-Oct-2017 00:16:33 UTC] PHP Stack trace:
+[03-Oct-2017 00:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab4/Slider/index.php:0
+[03-Oct-2017 00:16:33 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336-github/Lab4/Slider/index.php:19
