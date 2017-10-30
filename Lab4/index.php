@@ -11,7 +11,7 @@
     
     if (isset($_GET['keyword']))
     {
-        include "./api/pixabayAPI.php";
+        include "./Slider/api/pixabayAPI.php";
         
         $imgURLs = getImageURLs($_GET['keyword']);
         $imgsToDisplay = getTenRandomImages($imgURLs);
