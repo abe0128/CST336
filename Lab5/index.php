@@ -1,58 +1,36 @@
 <?php
      
-     $servername = "localhost";
-     $username = "root";
-     $password = "cst336";
-     $dbname = "tech_devices_app";
+    $servername = "us-cdbr-iron-east-05.cleardb.net";
+    $username = "b27252d3fdf511";
+    $password = "0f2a27bd";
+    $dbname = "heroku_802607ade1b72d2";
      
      
-     $conn = new mysqli($servername, $username, $password, $dbname);
+    $conn = new mysqli($servername, $username, $password, $dbname);
      
      
-     if($conn->connect_error)
-     {
-        die("Connection failed: " . $conn->connect_error);
-     }
-     $conn->close();
- 
- if(isset($_POST['loginForm']))
- {
-    $sql = "SELECT *
-    FROM Admin
-    WHERE userName = '$username'
-    AND password = '$password'";
-    
-    
-    echo $sql;
-    
-    $stmt = $con->prepare($sql);
-    $stmt->execute();
-    $record = $stmt->fetch();
-    
-    if(empty($record))
+    if($conn->connect_error)
     {
-        echo "Wrong username or password";
+        die("Connection failed: " . $conn->connect_error);
+    }
+    
+    
+    $sql = "SELECT id, firstname, lastname FROM user";
+    $result = $conn->query($sql);
+    
+    if($result->num_rows > 0)
+    {
+        while($row = $result->fetch_assoc())
+        {
+            echo "user id: ".$row["id"].": ".$row["firstname"]." ".$row["lastname"]."<br>";
+        }
     }
     else
     {
-        echo $record['firstName'];
+        echo "0 results";
     }
-    print_r($record);
     
-    
-     //echo "form has been submitted!";
-     //print_r($_POST['username']);
- }
- ?>
+    $conn->close();
  
-<html>
-    <body>
-        <form action="welcome.php" method="post">
-            Username: <input type="text" name="name"><br>
-            Password: <input type="password" name="password"><br>
-            <input type="submit" name="loginForm" value="login!"/>
-            
-            
-        </form>
-    </body>
-</html>
+?>
+ 
