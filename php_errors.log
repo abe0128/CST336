@@ -90,3 +90,38 @@ Stack trace:
 [04-Nov-2017 04:24:24 UTC] PHP Stack trace:
 [04-Nov-2017 04:24:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab6/login.php:0
 [04-Nov-2017 04:24:24 UTC] PHP   2. loginProcess() /home/ubuntu/workspace/cst336-github/Lab6/login.php:66
+[06-Nov-2017 21:43:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336-github/Lab6/database.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/Lab6/database.php(11): PDO->__construct('mysql:host=loca...', 'root', 'cst336')
+#1 /home/ubuntu/workspace/cst336-github/Lab6/login.php(9): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336-github/Lab6/login.php(66): loginProcess()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/Lab6/database.php on line 11
+[06-Nov-2017 21:48:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336-github/Lab6/database.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/Lab6/database.php(11): PDO->__construct('mysql:host=loca...', 'root', 'cst336')
+#1 /home/ubuntu/workspace/cst336-github/Lab6/login.php(9): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336-github/Lab6/login.php(66): loginProcess()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/Lab6/database.php on line 11
+[06-Nov-2017 21:49:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336-github/Lab6/database.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/Lab6/database.php(11): PDO->__construct('mysql:host=loca...', 'root', 'cst336')
+#1 /home/ubuntu/workspace/cst336-github/Lab6/login.php(9): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336-github/Lab6/login.php(66): loginProcess()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/Lab6/database.php on line 11
+[06-Nov-2017 21:50:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336-github/Lab6/database.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/Lab6/database.php(11): PDO->__construct('mysql:host=loca...', 'root', 'cst336')
+#1 /home/ubuntu/workspace/cst336-github/Lab6/login.php(9): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336-github/Lab6/login.php(66): loginProcess()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/Lab6/database.php on line 11
+[06-Nov-2017 22:00:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336-github/Lab6/database.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/Lab6/database.php(11): PDO->__construct('mysql:host=loca...', 'root', 'cst336')
+#1 /home/ubuntu/workspace/cst336-github/Lab6/login.php(9): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336-github/Lab6/login.php(66): loginProcess()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/Lab6/database.php on line 11
