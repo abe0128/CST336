@@ -125,3 +125,49 @@ Stack trace:
 #2 /home/ubuntu/workspace/cst336-github/Lab6/login.php(66): loginProcess()
 #3 {main}
   thrown in /home/ubuntu/workspace/cst336-github/Lab6/database.php on line 11
+[15-Nov-2017 21:04:15 UTC] PHP Warning:  array_rand(): Second argument has to be between 1 and the number of elements in the array in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program1.php on line 30
+[15-Nov-2017 21:04:15 UTC] PHP Stack trace:
+[15-Nov-2017 21:04:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/MidtermAssignment/program1.php:0
+[15-Nov-2017 21:04:15 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336-github/MidtermAssignment/program1.php:30
+[15-Nov-2017 22:40:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jsullivan51'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(10): PDO->__construct('mysql:host=loca...', 'jsullivan51', '')
+#1 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(35): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php on line 10
+[15-Nov-2017 22:43:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jsullivan51'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(10): PDO->__construct('mysql:host=loca...', 'jsullivan51', '')
+#1 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(35): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php on line 10
+[15-Nov-2017 22:46:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(35): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php on line 10
+[15-Nov-2017 22:47:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jsullivan51'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(10): PDO->__construct('mysql:host=loca...', 'jsullivan51', '')
+#1 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(35): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php on line 10
+[15-Nov-2017 22:52:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jsullivan51'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(10): PDO->__construct('mysql:host=loca...', 'jsullivan51', '')
+#1 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(35): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php on line 10
+[15-Nov-2017 22:55:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(35): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php on line 10
+[15-Nov-2017 22:55:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(35): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php on line 10
