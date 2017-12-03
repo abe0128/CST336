@@ -171,3 +171,43 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php(35): getDatabaseConnection()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336-github/MidtermAssignment/program2.php on line 10
+[03-Dec-2017 04:22:14 UTC] PHP Fatal error:  Undefined class constant 'ATTR_ERRORMODE' in /home/ubuntu/workspace/cst336-github/Lab8/api.php on line 15
+[03-Dec-2017 04:22:14 UTC] PHP Stack trace:
+[03-Dec-2017 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab8/api.php:0
+[03-Dec-2017 04:22:14 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/cst336-github/Lab8/api.php:38
+[03-Dec-2017 04:22:14 UTC] PHP   3. getDatabaseConnection() /home/ubuntu/workspace/cst336-github/Lab8/api.php:23
+[03-Dec-2017 04:23:06 UTC] PHP Fatal error:  Undefined class constant 'ATTR_ERRORMODE' in /home/ubuntu/workspace/cst336-github/Lab8/api.php on line 15
+[03-Dec-2017 04:23:06 UTC] PHP Stack trace:
+[03-Dec-2017 04:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab8/api.php:0
+[03-Dec-2017 04:23:06 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/cst336-github/Lab8/api.php:38
+[03-Dec-2017 04:23:06 UTC] PHP   3. getDatabaseConnection() /home/ubuntu/workspace/cst336-github/Lab8/api.php:23
+[03-Dec-2017 04:23:08 UTC] PHP Fatal error:  Undefined class constant 'ATTR_ERRORMODE' in /home/ubuntu/workspace/cst336-github/Lab8/api.php on line 15
+[03-Dec-2017 04:23:08 UTC] PHP Stack trace:
+[03-Dec-2017 04:23:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab8/api.php:0
+[03-Dec-2017 04:23:08 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/cst336-github/Lab8/api.php:38
+[03-Dec-2017 04:23:08 UTC] PHP   3. getDatabaseConnection() /home/ubuntu/workspace/cst336-github/Lab8/api.php:23
+[03-Dec-2017 04:23:09 UTC] PHP Fatal error:  Undefined class constant 'ATTR_ERRORMODE' in /home/ubuntu/workspace/cst336-github/Lab8/api.php on line 15
+[03-Dec-2017 04:23:09 UTC] PHP Stack trace:
+[03-Dec-2017 04:23:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab8/api.php:0
+[03-Dec-2017 04:23:09 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/cst336-github/Lab8/api.php:38
+[03-Dec-2017 04:23:09 UTC] PHP   3. getDatabaseConnection() /home/ubuntu/workspace/cst336-github/Lab8/api.php:23
+[03-Dec-2017 04:24:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'ip-10-171-194-27.ec2.internal' (using password: YES)' in /home/ubuntu/workspace/cst336-github/Lab8/api.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cst336-github/Lab8/api.php(14): PDO->__construct('mysql:host=us-c...', 'root', 'cst336')
+#1 /home/ubuntu/workspace/cst336-github/Lab8/api.php(23): getDatabaseConnection()
+#2 /home/ubuntu/workspace/cst336-github/Lab8/api.php(38): displayUsers()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336-github/Lab8/api.php on line 14
+[03-Dec-2017 04:25:12 UTC] PHP Fatal error:  Undefined class constant 'ATTR_ERRORMODE' in /home/ubuntu/workspace/cst336-github/Lab8/api.php on line 15
+[03-Dec-2017 04:25:12 UTC] PHP Stack trace:
+[03-Dec-2017 04:25:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab8/api.php:0
+[03-Dec-2017 04:25:12 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/cst336-github/Lab8/api.php:38
+[03-Dec-2017 04:25:12 UTC] PHP   3. getDatabaseConnection() /home/ubuntu/workspace/cst336-github/Lab8/api.php:23
+[03-Dec-2017 04:28:55 UTC] PHP Fatal error:  Undefined class constant 'ATTR_ERROMODE' in /home/ubuntu/workspace/cst336-github/Lab8/api.php on line 15
+[03-Dec-2017 04:28:55 UTC] PHP Stack trace:
+[03-Dec-2017 04:28:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab8/api.php:0
+[03-Dec-2017 04:28:55 UTC] PHP   2. displayUsers() /home/ubuntu/workspace/cst336-github/Lab8/api.php:38
+[03-Dec-2017 04:28:55 UTC] PHP   3. getDatabaseConnection() /home/ubuntu/workspace/cst336-github/Lab8/api.php:23
+[03-Dec-2017 05:14:35 UTC] PHP Fatal error:  Call to undefined function displayUsers() in /home/ubuntu/workspace/cst336-github/Lab8/api.php on line 45
+[03-Dec-2017 05:14:35 UTC] PHP Stack trace:
+[03-Dec-2017 05:14:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/Lab8/api.php:0
